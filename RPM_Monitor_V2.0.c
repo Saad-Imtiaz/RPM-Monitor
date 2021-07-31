@@ -110,6 +110,5 @@ void EncoderInit()
 void updateEncoder()
 {
   // Add encoderValue by 1, each time it detects rising signal
-  // from hall sensor A
   encoderValue++;
 }
